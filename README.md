@@ -1,7 +1,7 @@
 ### Name : Rajalakshmi R
 ### Reg No : 2122231110037
 
-# Led control using Arduino
+# exp : 1 : Led control using Arduino
 
 ## AIM
 To design and implement a system for LED control using an Arduino microcontroller and a push button.
