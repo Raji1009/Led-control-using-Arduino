@@ -12,16 +12,26 @@ Bread board </br>
 Jumber wire </br>
 
 ## PROCEDURE
-Step 1 Connect all the componets as per the circut diagram </br>
-Step 2 Open the Arduino IDE </br>
-Step 3 Go to file and select the new file option </br>
-Step 4 Type the program </br>
-Step 5 Go to file and select save option to save the program </br>
-Step 6 GO to sketch and select verify to compile the program </br>
-Step 7 If no error, Connect the Arduino board to your computer using a USB cable </br>
-Step 8 Select the correct board and port in the Arduino IDE </br>
-Step 8 GO to sketch and select verify to upload the program in the Arduino board </br>
-Step 9 Press the push button and observe the LED's behavior </br>
+Step 1 
+Connect all the componets as per the circut diagram </br>
+Step 2
+Open the Arduino IDE </br>
+Step 3
+Go to file and select the new file option </br>
+Step 4 
+Type the program </br>
+Step 5
+Go to file and select save option to save the program </br>
+Step 6
+GO to sketch and select verify to compile the program </br>
+Step 7 
+If no error, Connect the Arduino board to your computer using a USB cable </br>
+Step 8 
+Select the correct board and port in the Arduino IDE </br>
+Step 8 
+GO to sketch and select verify to upload the program in the Arduino board </br>
+Step 9 
+Press the push button and observe the LED's behavior </br>
 
 ## THEORY
 
@@ -58,9 +68,34 @@ Emergency Signaling System </br>
 Weighing Machines </br>
 
 ## CIRCUIT DIAGRAM
+<img width="738" height="567" alt="image" src="https://github.com/user-attachments/assets/023a42b7-8bbf-4958-a5ea-855553cb41a4" />
 
 ## PROGRAM
+```
+bool button_status;
+
+void setup() {
+  pinMode(10,OUTPUT);
+  pinMode(5,INPUT);
+}
+
+void loop() {
+  button_status=digitalRead(5);
+  if (button_status== HIGH)
+  {
+    digitalWrite(10,HIGH);
+    delay(1000);
+    digitalWrite(10,LOW);
+    delay(3000);
+  }
+  else
+  digitalWrite(13,LOW);
+}
+```
 
 ## OUTPUT
+<img width="1354" height="950" alt="image" src="https://github.com/user-attachments/assets/8d29ba7b-7ea0-4b25-875f-47e7ab8ede69" />
+
 
 ## RESULT
+Thus, The Simulation of LED in Arduino UNO is Successfully Completed.
