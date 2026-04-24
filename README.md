@@ -1,4 +1,7 @@
-# Led-control-using-Arduino
+Name : Rajalakshmi R
+Reg No : 2122231110037
+
+# Led control using Arduino
 
 ## AIM
 To design and implement a system for LED control using an Arduino microcontroller and a push button.
@@ -94,8 +97,10 @@ void loop() {
 ```
 
 ## OUTPUT
+### LED ON - SWITCH ON:
 <img width="1354" height="950" alt="image" src="https://github.com/user-attachments/assets/8d29ba7b-7ea0-4b25-875f-47e7ab8ede69" />
-
+### LED OFF  -SWITCH OFF :
+<img width="1357" height="953" alt="image" src="https://github.com/user-attachments/assets/d62d934a-f8e3-4bd7-b6fa-64676e1bf86a" />
 
 ## RESULT
 Thus, The Simulation of LED in Arduino UNO is Successfully Completed.
